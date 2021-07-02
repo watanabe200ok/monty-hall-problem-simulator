@@ -1,0 +1,14 @@
+group 'watanabe200ok'
+
+apply plugin: 'java'
+
+java {
+  sourceCompatibility = JavaVersion.VERSION_11
+  targetCompatibility = JavaVersion.VERSION_11
+}
+
+jar {
+  manifest {
+    attributes 'Main-Class': 'watanabe200ok.mhp.MontyHallProblemSimulator'
+  }
+}

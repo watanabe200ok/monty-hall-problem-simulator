@@ -76,8 +76,8 @@ public class MontyHallProblemSimulator {
      * @param args ドアの数 ゲーム回数
      */
     public static void main(final String[] args) {
-        final int numberOfDoors = intParameter(args, 1, DEFAULT_NUMBER_OF_DOORS);
-        final int numberOfGames = intParameter(args, 0, DEFAULT_NUMBER_OF_GAMES);
+        final int numberOfDoors = intParameter(args, 0, DEFAULT_NUMBER_OF_DOORS);
+        final int numberOfGames = intParameter(args, 1, DEFAULT_NUMBER_OF_GAMES);
         final MontyHallProblemSimulator simulator = new MontyHallProblemSimulator();
         simulator.execute(numberOfDoors, numberOfGames);
     }

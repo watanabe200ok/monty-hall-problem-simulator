@@ -1,11 +1,14 @@
 group 'watanabe200ok'
 
 apply plugin: 'java'
+apply plugin: 'application'
 
 java {
   sourceCompatibility = JavaVersion.VERSION_11
   targetCompatibility = JavaVersion.VERSION_11
 }
+
+mainClassName = 'watanabe200ok.mhp.MontyHallProblemSimulator'
 
 jar {
   manifest {

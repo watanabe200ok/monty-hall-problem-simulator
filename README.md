@@ -135,9 +135,3 @@ SwitchMan:	 win% = 50%	 lose% = 50%	 changed%[@win] = 67%
   ```
   $ gradlew.bat run
   ```
-
-or
-
-```
-$ java -jar build/libs/monty-hall-problem-simulator.jar
-```

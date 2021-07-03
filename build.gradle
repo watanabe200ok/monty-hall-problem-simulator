@@ -9,9 +9,3 @@ java {
 }
 
 mainClassName = 'watanabe200ok.mhp.MontyHallProblemSimulator'
-
-jar {
-  manifest {
-    attributes 'Main-Class': 'watanabe200ok.mhp.MontyHallProblemSimulator'
-  }
-}
